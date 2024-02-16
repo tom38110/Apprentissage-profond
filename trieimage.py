@@ -34,5 +34,5 @@ def remove_duplicates(directory):
         print(f"Image en double supprimée : {duplicate_image}")
 
 if __name__ == "__main__":
-    directory = "Gare_Matabiau"  # Répertoire contenant les images
+    directory = "Hotel_Assezat"  # Répertoire contenant les images
     remove_duplicates(directory)
