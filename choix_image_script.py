@@ -45,5 +45,5 @@ class ImageClassifierApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = ImageClassifierApp(root, ".")
+    app = ImageClassifierApp(root, "./Cathedrale_Saint_Etienne/")
     root.mainloop()
