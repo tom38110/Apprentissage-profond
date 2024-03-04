@@ -26,6 +26,6 @@ def rename_images(folder_path):
         print(f"L'image {image_file} a été renommée en {os.path.basename(new_name)}.")
 
 # Utilisation de la fonction
-folder_path = "./Train/Hotel_Assezat"  # Chemin actuel
+folder_path = "."  # Chemin actuel
 rename_images(folder_path)
 
